@@ -1,0 +1,22 @@
+name: File operations in github-push
+
+on: push
+
+jobs:
+    files:
+        runs-on: ubuntu-latest
+        steps:
+            - name: create a one file
+              run: echo "HELLO NOOR07" > devopsb7.txt
+            
+            - name: display the content of a file
+              run: cat devopsb7.txt
+
+            - name: display the date
+              run: date
+
+            - name: display files and directories
+              run: ls -lrth
+            
+            - name: display th present location
+              run: pwd
