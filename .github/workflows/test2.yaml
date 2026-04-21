@@ -1,0 +1,16 @@
+name: Testing workflows
+
+on: push
+
+jobs:
+    test-job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: display hello
+              run: echo "Hello NOOR07"
+
+            - name: Display date
+              run: date
+
+            - name: display present location
+              run: pwd
