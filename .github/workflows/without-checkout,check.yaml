@@ -1,4 +1,4 @@
-name: File operations in github-push
+name: Validating without checkout then check actions
 
 on: workflow_dispatch
 
