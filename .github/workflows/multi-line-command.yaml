@@ -17,5 +17,5 @@ jobs:
                ls -lrtha
             - name: running java and python
               run: |
-               MathExample.java
-               fibonacci series.py
+               javac MathExample.java
+               python3 "fibonacci series.py"
