@@ -1,0 +1,25 @@
+name: multi-line-commands on files and some more commands
+
+on: workflow_dispatch
+
+jobs:
+    command:
+        runs-on: ubuntu-latest
+        steps:
+            - name: checkout the repository
+              uses: actions/checkout@v6
+            
+            - name: display the content of a file and some more commands.
+              run: | 
+               cat devops.txt
+               chmod +x uptime.sh
+               ./uptime.sh
+               whoami
+               fibonacci series.py
+               MathExample.java
+               pwd
+               date
+               sleep 15
+               whoami
+               uname
+               
