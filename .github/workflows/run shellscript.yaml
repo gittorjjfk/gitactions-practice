@@ -20,6 +20,9 @@ jobs:
             
             - name: display th present location
               run: pwd
-
+              
+            - name: changing the permissions
+              run: chmod +x uptime.sh
+              
             - name: execute the shell scripting
               run: ./uptime.sh
