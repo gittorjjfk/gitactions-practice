@@ -14,12 +14,7 @@ jobs:
                cat devops.txt
                chmod +x uptime.sh
                ./uptime.sh
-               whoami
                fibonacci series.py
                MathExample.java
-               pwd
-               date
-               sleep 15
-               whoami
                ls -lrtha
                
