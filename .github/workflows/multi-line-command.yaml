@@ -15,4 +15,7 @@ jobs:
                chmod +x uptime.sh
                ./uptime.sh
                ls -lrtha
-               
+            - name: running java and python
+              run: |
+               MathExample.java
+               fibonacci series.py
