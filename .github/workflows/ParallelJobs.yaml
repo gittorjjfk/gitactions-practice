@@ -1,0 +1,29 @@
+name: Parallel Jobs Demo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Job1 Step
+        run: echo "This is Job1 running"
+
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Job2 Step
+        run: echo "This is Job2 running"
+
+  job3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Job3 Step
+        run: echo "This is Job3 running"
+
+  job4:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Job4 Step
+        run: echo "This is Job4 running"
