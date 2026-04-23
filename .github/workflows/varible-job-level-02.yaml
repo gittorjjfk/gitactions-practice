@@ -17,4 +17,9 @@ jobs:
 
       - name: Step two
         run: echo "Country is $COUNTRY"
+  another:
+    runs-on: ubuntu-latest
     
+    steps:
+      - name: test-step
+        run: echo "country is $COUNTRY company is $COMPANY"
