@@ -1,4 +1,4 @@
-name: Job Timeout Example 0
+name: Job Timeout Example 01
 
 on:
   workflow_dispatch:
