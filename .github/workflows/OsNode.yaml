@@ -1,0 +1,13 @@
+name: OS + Node
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        node: [16, 18]
+    steps:
+      - run: echo "$matrix.os $matrix.node"
