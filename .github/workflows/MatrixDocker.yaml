@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]
-        images: [kkdevops07/mongospring1:latest, alpine]
+        images: [hello-world, alpine]
     steps:
       - name: Docker details
         run: docker info
