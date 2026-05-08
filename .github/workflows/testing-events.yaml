@@ -4,6 +4,7 @@ on:
     paths-ignore:
       - README.md
       - devops.txt
+      
 jobs:
   ci:
     runs-on: ubuntu-latest
